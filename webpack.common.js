@@ -9,10 +9,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const env = args.envFile
-if (env) {
-  // Load env file
-  require('dotenv').config({ path: env })
-}
+require('dotenv').config()
+//if (env) {
+// Load env file
+//require('dotenv').config({ path: env })
+//}
 
 const common = ['./src/common.js']
 

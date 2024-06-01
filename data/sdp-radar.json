@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Python",
+    "ring": "adopt",
+    "quadrant": "Languages & libraries",
+    "isNew": "TRUE",
+    "description": "Python is the programming language of choice when writing SDP code that is not performance critical."
+  },
+  {
+    "name": "PyBind",
+    "ring": "adopt",
+    "quadrant": "Languages & libraries",
+    "isNew": "TRUE",
+    "description": "PyBind is the framework of choice for developing low level binding to performant C and C++ code."
+  },
+  {
+    "name": "FFTW",
+    "ring": "hold",
+    "quadrant": "Languages & libraries",
+    "isNew": "TRUE",
+    "description": "While FFTW is arguably one of the most popular and efficient FFT implementations, its GPL license is an issue and we are not adopting this library for SDP development."
+  },
+  {
+    "name": "Apache Kafka",
+    "ring": "adopt",
+    "quadrant": "Platform & services",
+    "isNew": "TRUE",
+    "description": "Apache Kafka is the technology in use for implementing SDP data queues."
+  },
+  {
+    "name": "ETCD",
+    "ring": "adopt",
+    "quadrant": "Platform & services",
+    "isNew": "TRUE",
+    "description": "ETCD is the technology used in implementing the SDP configuration database."
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "trial",
+    "quadrant": "Platform & services",
+    "isNew": "TRUE",
+    "description": "K8s is currently being trialled as the orchestration solution for AA0.5. Further work is needed to assess how viable that would be as a single solution for all SDP needs, including for example the deployment of SLURM over k8s."
+  },
+  {
+    "name": "katpoint",
+    "ring": "adopt",
+    "quadrant": "Astronomy packages",
+    "isNew": "TRUE",
+    "description": "Katpoint shall be used in SDP as the astrnomical library of choice for python development."
+  },
+  {
+    "name": "WSClean",
+    "ring": "assess",
+    "quadrant": "Astronomy packages",
+    "isNew": "TRUE",
+    "description": "WSClean is currently being assessed as a possible solution in the imaging pipelines. Improvements to its implementation are needed before it is officially adopted."
+  },
+  {
+    "name": "dask",
+    "ring": "trial",
+    "quadrant": "Distribution frameworks",
+    "isNew": "TRUE",
+    "description": "Dask is being currently trialled as the main distribution framework for orcestarting imaging pipeline. The trial and its use in more complex use cases will contribute to assessing its long term suitability for high-scale use cases."
+  },
+  {
+    "name": "the thing",
+    "ring": "assess",
+    "quadrant": "Distribution frameworks",
+    "isNew": "TRUE",
+    "description": "<b>The thing</b> is being used<br />to test HTML rendering. For example we want to use <a href='https://example.com'>hyperlinks</a>."
+  }
+]

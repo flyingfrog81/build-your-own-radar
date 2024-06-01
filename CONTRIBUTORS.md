@@ -14,6 +14,8 @@ In alphabetic order:
 
 - [@filipesabella](https://github.com/filipesabella)
 
+- [@flyingfrog81](https://github.com/flyingfrog81)
+
 - [@hkurosawa](https://github.com/hkurosawa)
 
 - [@jaiganeshg](https://github.com/jaiganeshg)

@@ -3,7 +3,7 @@
     "name": "Python",
     "ring": "adopt",
     "quadrant": "Languages & libraries",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Python is the programming language of choice when writing SDP code that is not performance critical.",
     "status": "No Change"
   },

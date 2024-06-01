@@ -5,7 +5,7 @@
     "quadrant": "Languages & libraries",
     "isNew": "TRUE",
     "description": "Python is the programming language of choice when writing SDP code that is not performance critical.",
-    "status": "New"
+    "status": "No Change"
   },
   {
     "name": "PyBind",
@@ -21,7 +21,7 @@
     "quadrant": "Languages & libraries",
     "isNew": "TRUE",
     "description": "While FFTW is arguably one of the most popular and efficient FFT implementations, its GPL license is an issue and we are not adopting this library for SDP development.",
-    "status": "New"
+    "status": "Moved Out"
   },
   {
     "name": "Apache Kafka",
@@ -64,11 +64,11 @@
     "status": "New"
   },
   {
-    "name": "dask",
+    "name": "Dask",
     "ring": "trial",
     "quadrant": "Frameworks",
     "isNew": "TRUE",
     "description": "Dask is being currently trialled as the main distribution framework for orcestarting imaging pipeline. The trial and its use in more complex use cases will contribute to assessing its long term suitability for high-scale use cases.",
-    "status": "New"
+    "status": "Moved In"
   }
 ]

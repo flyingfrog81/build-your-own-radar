@@ -1,0 +1,7 @@
+name,ring,quadrant,isNew,description,status
+Dask,trial,Frameworks,TRUE,"<b>Dask</b> is being currently trialled as the main distribution framework in SDP for orcestarting imaging pipeline. 
+The trial and its use in more complex use cases will contribute to assessing its long term suitability for high-scale use cases.
+<br />
+URL: <h href=""https://www.dask.org/"">https://www.dask.org/</a><br />
+URL: <h href=""https://docs.dask.org/en/stable/ "">https://docs.dask.org/en/stable/ </a><br />
+SKA Example: ",Moved In

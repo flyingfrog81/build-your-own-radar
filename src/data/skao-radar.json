@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Python",
+    "ring": "adopt",
+    "quadrant": "Languages & libraries",
+    "isNew": "FALSE",
+    "description": "Python is the programming language of choice when writing SDP code that is not performance critical.",
+    "status": "No Change"
+  },
+  {
+    "name": "msgpack",
+    "ring": "trial",
+    "quadrant": "Languages & libraries",
+    "isNew": "TRUE",
+    "description": "<a href='https://msgpack.org/'>MessagePack</a> is an efficient binary serialization format. It's like JSON. but fast and small.",
+    "status": "No Change"
+  },
+  {
+    "name": "DuckDB",
+    "ring": "trial",
+    "quadrant": "Languages & libraries",
+    "isNew": "TRUE",
+    "description": "<a href='https://duckdb.org/'>DuckDB</a> is a fast in-process analytical database",
+    "status": "No Change"
+  },
+  {
+    "name": "PyBind",
+    "ring": "adopt",
+    "quadrant": "Languages & libraries",
+    "isNew": "TRUE",
+    "description": "PyBind is the framework of choice for developing low level binding to performant C and C++ code.",
+    "status": "New"
+  },
+  {
+    "name": "FFTW",
+    "ring": "hold",
+    "quadrant": "Languages & libraries",
+    "isNew": "TRUE",
+    "description": "While FFTW is arguably one of the most popular and efficient FFT implementations, its GPL license is an issue and we are not adopting this library for SDP development.",
+    "status": "Moved Out"
+  },
+  {
+    "name": "Apache Kafka",
+    "ring": "adopt",
+    "quadrant": "Platform Tools",
+    "isNew": "TRUE",
+    "description": "<a href='https://kafka.apache.org/'>Apache Kafka</a> is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications.",
+    "status": "New"
+  },
+  {
+    "name": "ETCD",
+    "ring": "adopt",
+    "quadrant": "Platform Tools",
+    "isNew": "TRUE",
+    "description": "<a href='https://etcd.io/'>etcd</a> is a strongly consistent, distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines. It gracefully handles leader elections during network partitions and can tolerate machine failure, even in the leader node.",
+    "status": "New"
+  },
+  {
+    "name": "Argo CD",
+    "ring": "assess",
+    "quadrant": "Platform Tools",
+    "isNew": "TRUE",
+    "description": "<a href='https://argo-cd.readthedocs.io/en/stable/'>Argo CD</a> is a declarative, GitOps continuous delivery tool for Kubernetes.",
+    "status": "New"
+  },
+  {
+    "name": "Flux",
+    "ring": "assess",
+    "quadrant": "Platform Tools",
+    "isNew": "TRUE",
+    "description": "<a href='https://fluxcd.io/flux/'>Flux</a> is a tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy.",
+    "status": "New"
+  },
+  {
+    "name": "katpoint",
+    "ring": "adopt",
+    "quadrant": "Astronomy packages",
+    "isNew": "TRUE",
+    "description": "Katpoint shall be used in SDP as the astrnomical library of choice for python development.",
+    "status": "New"
+  },
+  {
+    "name": "radler",
+    "ring": "assess",
+    "quadrant": "Astronomy packages",
+    "isNew": "TRUE",
+    "description": "<a href='https://radler.readthedocs.io/en/latest/'>Radler</a> is a library providing functionality for deconvolving astronomical images. Radler evolved as a stand-alone library from the w-stacking clean (WSClean) imager",
+    "status": "New"
+  },
+  {
+    "name": "AOFlagger",
+    "ring": "adopt",
+    "quadrant": "Astronomy packages",
+    "isNew": "TRUE",
+    "description": "The <a href='https://radler.readthedocs.io/en/latest/'>AOFlagger</a>  software can find and remove radio-frequency interference (RFI) in radio astronomical observations. The Lua language is used for writing flexible flagging strategies. The tools are applicable to a wide range of telescopes.",
+    "status": "New"
+  },
+  {
+    "name": "WSClean",
+    "ring": "assess",
+    "quadrant": "Astronomy packages",
+    "isNew": "TRUE",
+    "description": "WSClean is currently being assessed as a possible solution in the imaging pipelines. Improvements to its implementation are needed before it is officially adopted.",
+    "status": "New"
+  },
+  {
+    "name": "Dask",
+    "ring": "trial",
+    "quadrant": "Frameworks",
+    "isNew": "TRUE",
+    "description": "Dask is being currently trialled as the main distribution framework for orcestarting imaging pipeline. The trial and its use in more complex use cases will contribute to assessing its long term suitability for high-scale use cases.",
+    "status": "Moved In"
+  },
+  {
+    "name": "NextFlow",
+    "ring": "assess",
+    "quadrant": "Frameworks",
+    "isNew": "TRUE",
+    "description": "<a href='https://www.nextflow.io/'>Nextflow</a> enables scalable and reproducible scientific workflows using software containers. It allows the adaptation of pipelines written in the most common scripting languages.",
+    "status": "New"
+  },
+  {
+    "name": "MQTT",
+    "ring": "assess",
+    "quadrant": "Frameworks",
+    "isNew": "TRUE",
+    "description": "<a href='https://en.wikipedia.org/wiki/MQTT'>MQTT</a> (originally an initialism of MQ Telemetry Transport[a]) is a lightweight, publish-subscribe, machine to machine network protocol for message queue/message queuing service.",
+    "status": "New"
+  }
+]

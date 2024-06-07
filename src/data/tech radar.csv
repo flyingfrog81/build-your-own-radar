@@ -1,0 +1,3 @@
+﻿<p>tech radar</p>
+"name","ring","quadrant","isNew","description","status"
+"Dask","trial","Frameworks","TRUE","Dask is being currently trialled as the main distribution framework in SDP for orcestarting imaging pipeline. The trial and its use in more complex use cases will contribute to assessing its long term suitability for high-scale use cases.     URL: https://www.dask.org/   DOCS: https://docs.dask.org/en/stable/   SKA Example:","MovedIn"

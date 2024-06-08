@@ -4,15 +4,15 @@
     "ring": "adopt",
     "quadrant": "Languages & libraries",
     "isNew": "FALSE",
-    "description": "Python is the programming language of choice when writing SDP code that is not performance critical.",
+    "description": "Python is the programming language of choice within the SKA project.",
     "status": "No Change"
   },
   {
     "name": "msgpack",
-    "ring": "trial",
+    "ring": "assess",
     "quadrant": "Languages & libraries",
     "isNew": "TRUE",
-    "description": "<a href='https://msgpack.org/'>MessagePack</a> is an efficient binary serialization format. It's like JSON. but fast and small.",
+    "description": "<a href='https://msgpack.org/'>MessagePack</a> is an efficient binary serialization format. It's like JSON. but fast and small.<br /> MessagePack is the technical choice used in the SDP data queues as documented in <a href='https://confluence.skatelescope.org/display/SWSI/ADR-83+SDP+data+queue+data+representations'>ADR-83</a>",
     "status": "No Change"
   },
   {
